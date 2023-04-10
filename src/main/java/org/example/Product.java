@@ -91,7 +91,7 @@ public class Product {
         }else{
             productFinalPrice = (this.unitCost + markUpValuePerUnit)  -  (this.unitCost + markUpValuePerUnit)*promotionValue;
         }
-        //double productFinalPrice = this.unitCost * (1 + markUpValue) * (1 - promotionValue);
+        
         return quantity*productFinalPrice;
     }
 
